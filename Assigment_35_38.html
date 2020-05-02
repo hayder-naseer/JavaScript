@@ -1,0 +1,21 @@
+<html>
+  <head>
+  <script>
+    var number = parseInt(prompt("Input a number:"));
+    function factorial(number)
+    {
+    var num=1;
+    var fac = 1;
+    for (var i = 1; i <= number; i++)
+    {
+        fac =fac*num;
+        num++;
+    }
+    return fac;
+    }
+    alert("Factorial of " + number + " is: " + factorial(number));
+</script>
+  </head>
+  <body>
+  </body>
+</html>

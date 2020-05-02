@@ -1,0 +1,40 @@
+<html>
+
+<head>
+	
+</head>
+
+<body>
+	
+<script>
+var a = prompt("Enter first number: ");
+console.log(Math.ceil(a));
+alert(Math.ceil(a));
+var string ="This is my Dummy Text";
+var text = string.slice(0,4);
+console.log(text);
+alert(text);
+Update ="";
+for(i=3 ; i>=0 ; i--)
+{
+   Update+=text[i];
+}
+alert(Update);
+console.log(Update)
+
+var inputValue = prompt("Enter a string");
+inputValue = inputValue.toLowerCase();
+inputValue = inputValue.split(' ');
+
+for (var i = 0; i < inputValue.length; i++) 
+    {
+    inputValue[i] = inputValue[i].charAt(0).toUpperCase() + inputValue[i].substring(1);
+    inputValue.join(' ');
+    }
+alert(inputValue);
+
+
+</script>
+
+</body>
+</html>

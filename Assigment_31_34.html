@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <script>
+    var d = new Date();
+    var n = d.getHours();
+    var Name=prompt("Enter Your Name");
+    if (n <= 12)
+    {
+      alert("Hello"+" "+Name+" "+"Good"+" "+"Morning");
+    }
+    else if (n >= 12 && n<=19)
+    {
+      alert("Hello"+" "+Name+" "+"Good"+" "+"AfterNoon");
+    }
+    else
+    {
+      alert("Hello"+" "+Name+" "+"Good"+" "+"Night");
+    }
+    var d = new Date(); 
+    var Year=prompt("Year");
+    d.setFullYear(Year);
+    var Day=prompt("Day");
+    d.setDate(Day);
+    var Month=prompt("Month");
+    Month=Month-1;
+    d.setMonth(Month);
+    alert(d);
+    alert(2019-Number(Year)+ d.getMonth());
+</script>
+  </head>
+  <body>
+  </body>
+</html>
